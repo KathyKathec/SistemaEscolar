@@ -1,0 +1,12 @@
+package sistemaEscolar.web.Repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import sistemaEscolar.web.Model.CursosModel;
+
+@Repository
+public interface CursosRepository extends JpaRepository<CursosModel, Integer> {
+	
+
+}
